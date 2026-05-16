@@ -1,0 +1,9 @@
+# Add 'Documentation' label to any changes within 'docs' folder or any subfolders
+Documentation:
+- changed-files:
+  - any-glob-to-any-file: docs/**
+  - any-glob-to-any-file: '**/*.md'
+
+CI:
+- changed-files:
+  - any-glob-to-any-file: .github/workflows/**
