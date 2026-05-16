@@ -2,13 +2,16 @@
 # The value is the regex pattern to match against the title and body
 
 urgent:
-  - '(?i)(urgent|critical|asap|blocker)'
+  - '(urgent|critical|asap|blocker)'
 
 bug:
-  - '(?i)(bug|broken|error|crash|failing|fix|issue)'
+  - '(bug|broken|error|crash|failing|fix|issue)'
 
 documentation:
-  - '(?i)(docs|documentation|readme|typo)'
+  - '(docs|documentation|readme|typo)'
 
 enhancement:
-  - '(?i)(enhancement|feature|feat|improvement|suggestion)'
+  - '(enhancement|feature|feat|improvement|suggestion)'
+
+test:action:
+  - '/.*/'
